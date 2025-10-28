@@ -1,5 +1,7 @@
 package com.campusdual.classroom;
 
+import java.text.SimpleDateFormat;
+
 public abstract class Merchandise {
 
     protected String name;
@@ -39,6 +41,7 @@ public abstract class Merchandise {
     }
 
     public abstract Object getSpecificData();
+
 
     public String getName() {
         return name;
